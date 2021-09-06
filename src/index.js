@@ -1,3 +1,3 @@
 import {render} from "react-dom"
-import App from './components/App'
+import App from './screens/App'
 render(<App/>,document.getElementById("root"))

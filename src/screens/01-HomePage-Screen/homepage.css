@@ -1,0 +1,30 @@
+
+.home-main{
+background-color:black;
+
+}
+.image-personal{
+    display: block;
+    max-width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    position:absolute;
+    margin-top:32px;
+}
+.contain-image-personal{
+   padding-top: 32px;
+   padding-bottom: 32px;  
+   padding: 0.5rem calc((100vw - 1000px) / 2);
+   display: flex;
+
+}
+.background-under-img{
+    width:390px;
+    height:500px;
+   background-color: white;
+   margin-top: 64px;
+   margin-left:16px
+}
+.theme-title{
+    color:'white';
+}
