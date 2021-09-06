@@ -1,3 +1,4 @@
+import "./styles/index.scss"
 const introduceMe = {
     age:21,
     job:"student",
