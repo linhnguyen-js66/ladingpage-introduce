@@ -1,16 +1,17 @@
 import "../styles/index.scss"
+import { useEffect, useState } from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Navbar from "../components/Navbar/NavbarElement"
-import HomePageScreen01 from "./01-HomePage-Screen/01-HomePage-Screen"
-import IntroduceScreen02 from "./02-Introduce-Screen/02-Introduce-Screen"
+import LandingPageScreen01 from "./01-LandingPage-Screen/01-LandingPage-Screen"
 const App = () => {
     return (
         <>
             <Router>
-               <Navbar/>
+               <Navbar />
                <Switch>
-                  <Route path="/" exact component={HomePageScreen01}/>
-                  <Route path="/introduce" exact component={IntroduceScreen02}/>
+                  <Route path="/" >
+                      <LandingPageScreen01/>
+                  </Route>
                </Switch>
             </Router>        
         </>
